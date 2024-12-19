@@ -1,21 +1,27 @@
-main, body {
-    dispay: flex;
-}
 main {
-    flex-direction: row;
-}
-body {
+    display: flex;
+    flex: auto;
     flex-direction: column;
 }
-main {
-    flex: auto;
+body {
+    display: flex;
+    flex-direction: row;
 }
 article {
+    background-color: aquamarine;
     flex: 2;
 }
 aside {
+    background-color: green;
     flex: 1;
 }
 article, aside {
     overflow-y: auto;
+    flex-direction: column;
+}
+header {
+    background-color: aqua;
+}
+footer {
+    background-color:rgb(43, 55, 226);
 }
